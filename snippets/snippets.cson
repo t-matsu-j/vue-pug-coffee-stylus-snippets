@@ -3,7 +3,7 @@
     "prefix": "template"
     "body": """
       <template lang="pug">
-        #$1
+      #$1
       </template>
       <script lang="coffee">
       export default {
@@ -14,6 +14,7 @@
       }
       </script>
       <style lang="stylus" ${3:scoped}>
+      #$1
       </style>
     """
     "description": "Single file component template"
