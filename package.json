@@ -1,0 +1,25 @@
+{
+  "name": "vue-pug-coffee-stylus-snippets",
+  "version": "0.0.0",
+  "description": "Snippets for vue with pug, coffee and stylus",
+  "author": {
+    "name": "Takashi Matsumoto",
+    "email": "dev.matsu.j@gmail.com",
+    "url": "https://github.com/"
+  },
+  "keywords": [
+    "Vuejs",
+    "snippets",
+    "Vuejs 2.0",
+    "Vue",
+    "pug",
+    "coffeescript",
+    "stylus"
+  ],
+  "repository": "https://github.com/t-matsu-j/vue-pug-coffee-stylus-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "dependencies": {}
+}

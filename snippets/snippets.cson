@@ -1,0 +1,20 @@
+".text.html.vue":
+  "Vue Component template":
+    "prefix": "template"
+    "body": """
+      <template lang="pug">
+        #$1
+      </template>
+      <script lang="coffee">
+      export default {
+        name: "$2",
+        data: () => ({
+
+        })
+      }
+      </script>
+      <style lang="stylus" ${3:scoped}>
+      </style>
+    """
+    "description": "Single file component template"
+    "descriptionMoreURL": "https://vuejs.org/v2/guide/single-file-components.html"
