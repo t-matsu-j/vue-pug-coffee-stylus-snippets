@@ -1,3 +1,4 @@
+#.vue
 ".text.html.vue":
   "Vue Component template":
     "prefix": "template"
@@ -8,9 +9,11 @@
       <script lang="coffee">
       export default {
         name: "$2",
-        data: () => ({
+        data: ->
 
-        })
+        computed:
+        methods:
+        components:
       }
       </script>
       <style lang="stylus" ${3:scoped}>
@@ -19,47 +22,3 @@
     """
     "description": "Single file component template with pug, coffee and stylus"
     "descriptionMoreURL": "https://vuejs.org/v2/guide/single-file-components.html"
-
-  "Vue Model v-model":
-    "prefix": "vm"
-    "body": """
-      v-model="$1"
-    """
-    "description": "Vue model"
-    "descriptionMoreURL": "https://vuejs.org/v2/api/#v-model"
-
-  "Vue bind v-bind":
-    "prefix": "vb"
-    "body": """
-      :$1="$2"
-    """
-    "description": "Vue bind with shorthand"
-    "descriptionMoreURL": "https://vuejs.org/v2/api/#v-bind"
-
-  "Vue on v-on":
-    "prefix": "vo"
-    "body": """
-      @$1="$2"
-    """
-    "description": "Vue on with shorthand"
-    "descriptionMoreURL": "https://vuejs.org/v2/api/#v-on"
-
-  "Vue compornent props with []":
-    "prefix": "props"
-    "body": """
-      props: [
-        $1
-      ]
-    """
-    "description": "Vue compornent props with simple syntax"
-    "descriptionMoreURL": "https://vuejs.org/v2/api/#props"
-
-  "Vue compornent props with {}":
-    "prefix": "propo"
-    "body": """
-      props: {
-        $1: $2
-      }
-    """
-    "description": "Vue compornent props with Object syntax"
-    "descriptionMoreURL": "https://vuejs.org/v2/api/#props"

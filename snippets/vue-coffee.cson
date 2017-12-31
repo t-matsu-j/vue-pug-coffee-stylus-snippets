@@ -1,0 +1,21 @@
+#.vue <script lang="coffee"></script>
+".text.html.vue .source.coffee.embedded.html":
+  "Vue component props with []":
+    "prefix": "props"
+    "body": """
+      props: [
+        $1
+      ]
+    """
+    "description": "Vue component props with simple syntax"
+    "descriptionMoreURL": "https://vuejs.org/v2/api/#props"
+
+  "Vue component props with {}":
+    "prefix": "propo"
+    "body": """
+      props: {
+        $1: $2
+      }
+    """
+    "description": "Vue component props with Object syntax"
+    "descriptionMoreURL": "https://vuejs.org/v2/api/#props"

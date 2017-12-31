@@ -1,0 +1,25 @@
+#.vue <template lang="pug"></template>
+".text.html.vue .source.pug.embedded.html":
+  "Vue Model v-model":
+    "prefix": "vm"
+    "body": """
+      v-model="$1"
+    """
+    "description": "Vue model"
+    "descriptionMoreURL": "https://vuejs.org/v2/api/#v-model"
+
+  "Vue bind v-bind":
+    "prefix": "vb"
+    "body": """
+      :$1="$2"
+    """
+    "description": "Vue bind with shorthand"
+    "descriptionMoreURL": "https://vuejs.org/v2/api/#v-bind"
+
+  "Vue on v-on":
+    "prefix": "vo"
+    "body": """
+      @$1="$2"
+    """
+    "description": "Vue on with shorthand"
+    "descriptionMoreURL": "https://vuejs.org/v2/api/#v-on"
