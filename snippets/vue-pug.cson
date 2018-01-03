@@ -23,3 +23,19 @@
     """
     "description": "Vue on with shorthand"
     "descriptionMoreURL": "https://vuejs.org/v2/api/#v-on"
+
+  "Input with Vue Model":
+    "prefix": "inputvmodel"
+    "body": """
+      input(v-model="$1")
+    """
+    "description": "Input Tag with v-model"
+    "descriptionMoreURL": "https://vuejs.org/v2/api/#v-model"
+
+  "TODO for Imdone-Atom":
+    "prefix": "todo"
+    "body": """
+      // #TODO: $1
+    """
+    "description": "TODO task for Imdone-Atom"
+    "descriptionMoreURL": "https://github.com/imdone/imdone-atom"

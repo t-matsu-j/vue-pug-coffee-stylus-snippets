@@ -1,2 +1,13 @@
 #.vue <style lang="stylus"></style>
-#".text.html.vue source.css.stylus.embedded.html":
+".text.html.vue .source.css.stylus.embedded.html":
+  "TODO for Imdone-Atom":
+    "prefix": "todo"
+    "body": """
+      // #TODO: $1
+    """
+    "description": "TODO task for Imdone-Atom"
+    "descriptionMoreURL": "https://github.com/imdone/imdone-atom"
+
+  "test":
+    "prefix": "testtest"
+    "body": "testtesttest"

@@ -19,3 +19,11 @@
     """
     "description": "Vue component props with Object syntax"
     "descriptionMoreURL": "https://vuejs.org/v2/api/#props"
+
+  "TODO for Imdone-Atom":
+    "prefix": "todo"
+    "body": """
+      # TODO: $1
+    """
+    "description": "TODO task for Imdone-Atom"
+    "descriptionMoreURL": "https://github.com/imdone/imdone-atom"
