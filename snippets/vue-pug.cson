@@ -35,7 +35,7 @@
   "TODO for Imdone-Atom":
     "prefix": "todo"
     "body": """
-      // #TODO: $1
+      // #TODO: $1 id:0 gh:2
     """
     "description": "TODO task for Imdone-Atom"
     "descriptionMoreURL": "https://github.com/imdone/imdone-atom"
