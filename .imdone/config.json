@@ -13,10 +13,16 @@
       "XXX",
       "IDEA",
       "NOTE",
-      "REVIEW"
+      "REVIEW",
+      "TODO"
     ]
   },
-  "lists": [],
+  "lists": [
+    {
+      "name": "TODO",
+      "hidden": false
+    }
+  ],
   "marked": {
     "gfm": true,
     "tables": true,
